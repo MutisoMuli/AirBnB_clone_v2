@@ -3,6 +3,7 @@
 """module using Fabric script to generates a .tgz archive."""
 import os
 from datetime import datetime
+from fabric import api
 from fabric.api import local, runs_once
 
 
